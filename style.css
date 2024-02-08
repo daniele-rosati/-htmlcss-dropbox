@@ -5,7 +5,11 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
 }
 
 /*--- head e sezione 0 ---*/
@@ -68,9 +72,20 @@ body{
     height: 650px;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid black;
 }
 
 .title{
     font-size: 45px ;
+    display: flex;
+    justify-content: center;
 }
 
+.col-50{
+    float: left;
+}
+
+.txt-left{
+    display: flex;
+    
+}
