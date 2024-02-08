@@ -8,7 +8,9 @@ body{
     font-family: 'Open Sans', sans-serif;;
 }
 
-.container{
+/*--- head e sezione 0 ---*/
+
+.container-head{
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -40,10 +42,35 @@ body{
 }
 
 .btn-head{
-    background-color: blue;
+    background-color: #0061ff;
     border: none;
     font-family: inherit;
     padding: 8px 12px;
     color: white;
     
 }
+
+/*---- /head e sezione 0 --- */
+
+/*---- sezione 1 ---- */
+
+.container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #b4d0e7;
+    width: 1920px;
+    height: 700px;
+}
+
+.container-mid{
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 45px ;
+}
+
