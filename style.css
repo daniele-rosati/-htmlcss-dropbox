@@ -299,5 +299,42 @@ input {
 }
 
 
+#col-p{
+    width: calc(100% / 3);
+    margin-right: calc(100px - 33px);
 
+}
+
+.single{
+    text-align: center;
+}
+.row-etp{
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 30px;
+    max-height: 100%;
+    height: 900px;
+}
+
+.title-etp{
+    padding-bottom: 20px;
+}
+
+.btn-contenuti{
+    padding-top: 20px;
+    background-color: #0061ff;
+    border-radius: 0%;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+    margin: 20px 65px;
+}
+
+.small{
+    width: 50px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
 /*---- /enterprise ---- */
