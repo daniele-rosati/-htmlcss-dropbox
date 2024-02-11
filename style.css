@@ -452,3 +452,25 @@ td{
 }
 
 /* ---- /tabella operazioni ---- */
+
+/* ---- n-team ---- */
+
+.container-nteam{
+    width: 610px;
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 100px;
+    font-family: inherit;
+}
+
+.n-team{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.link-clienti{
+    margin-top: 70px;
+    font-size: smaller;    
+}
+/* ---- /n-team ---- */
+
