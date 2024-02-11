@@ -24,7 +24,8 @@ button:active {
 }
 
 hr{
-    max-width: 100% ;
+    max-width: 100%;
+    color: #d0d0d3;
 }
 
 /*--- head e sezione 0 ---*/
@@ -190,10 +191,11 @@ input {
 .piano{
     padding-top: 30px;
     width: 1200px;
-    height: 1000px;
+    height: 830px;
     max-width: 100%;
     max-height: 100%;
     display: flex;
+    padding-bottom: 50px;
 }
 
 
@@ -201,12 +203,16 @@ input {
 
 #col-p{
     width: calc(100% / 3);
-    margin-right: calc(100px - 33px);
+    margin-right: calc(65px - 33px);
 
 }
 
+.hr-title{
+    margin-bottom: 40px;
+}
+
 .professional{
-    border: 2px solid black;
+    border: 2px solid #d0d0d3;
 }
 
 .single{
@@ -248,16 +254,11 @@ input {
 /*---- advaced ---- */
 
 .advanced{
-    border: 2px solid black;
+    border: 2px solid #d0d0d3;
 }
 
-#col-p{
-    width: calc(100% / 3);
-    margin-right: calc(100px - 33px);
 
-}
-
-.single{
+adv{
     text-align: center;
 }
 .row-adv{
@@ -295,17 +296,11 @@ input {
 
 
 .enterprise{
-    border: 2px solid black;
+    border: 2px solid #d0d0d3;
 }
 
 
-#col-p{
-    width: calc(100% / 3);
-    margin-right: calc(100px - 33px);
-
-}
-
-.single{
+.etp{
     text-align: center;
 }
 .row-etp{
@@ -318,6 +313,7 @@ input {
 
 .title-etp{
     padding-bottom: 20px;
+    
 }
 
 .btn-contenuti{
@@ -338,3 +334,47 @@ input {
     margin-bottom: 50px;
 }
 /*---- /enterprise ---- */
+
+/*---- enterprise contatto ---- */
+
+.team-enterprise{
+    width: 1170px;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid  #d0d0d3;
+}
+
+.team{
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+.title-etp-box{
+    padding-left: 40px;
+    line-height: 2;
+    width: calc(100% / 2);
+    height: 250px;
+}
+
+.p{
+    padding-top: 40px;
+}
+
+.contatto-ufficio-vendite{
+    position: absolute;
+    top: 1870px;
+    right: 450px;
+}
+.btn-vendite{
+    
+    background-color: #0061ff;
+    border-radius: 0%;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+    width: 270px;
+    
+}
