@@ -684,42 +684,41 @@ td{
 }
 
 .box-vuoto{
-
     width: 10px;
     height: 200px;
-   
-
 }
 
 .question{
 
     display: flex;
     justify-content: center;
-    height: 400px;
-    
+    padding-bottom: 110px;    
 }
 
 .box-question{
-    width: 900px;
+    width: 50%;
     
 }
 
 #angle-down{
-    padding-left: 60px;
+    padding-left: 250px;
 }
 .domande{
     padding: 10px;
-    font-size: 15px;
+    font-size: 30px;
     font-family: inherit;
 
 }
+
+.p-q{
+    padding: 20px 10px ;
+}
+
 
 /* --- footer --- */
 
 .footer{
     text-align: center;
-    width: 1903px;
-    height: 300px;
     background-color: black;
     color: white;
 }
