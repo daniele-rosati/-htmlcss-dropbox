@@ -78,7 +78,7 @@ hr{
     background-color: #b4d0e7;
     width: 100%;
     max-width: 100%;
-    height: 700px;
+    
 }
 
 .container-hero{
@@ -210,16 +210,19 @@ hr{
 
 .single{
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .row-pro{
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 30px;
     line-height: 30px;
     max-height: 100%;
     height: 900px;
 }
 
 .title-pro{
+   
     padding-bottom: 20px;
 }
 
@@ -252,11 +255,13 @@ hr{
 
 
 .adv{
+    padding-top: 10px;
     text-align: center;
+    padding-bottom: 10px;
 }
 .row-adv{
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 30px;
     line-height: 30px;
     max-height: 100%;
     height: 900px;
@@ -289,16 +294,19 @@ hr{
 
 
 .enterprise{
+    
     border: 2px solid #d0d0d3;
 }
 
 
 .etp{
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .row-etp{
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 30px;
     line-height: 30px;
     max-height: 100%;
     height: 900px;
@@ -353,10 +361,10 @@ hr{
     padding-top: 40px;
 }
 
-.contatto-ufficio-vendite{
-    position: absolute;
-    top: 1870px;
-    right: 450px;
+.Enterprise-box{
+   display: flex;
+   justify-content: space-between;
+   padding-right: 40px;
 }
 .btn-vendite{
     
@@ -472,8 +480,8 @@ td{
 /* ---- quadrati ---- */
 
 .quadrati{
-    width: 1890px;
-    height: 600px;
+    max-width: 100% ;
+    max-height: 100%;
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -481,44 +489,45 @@ td{
 }
 
 .box{
-    width: 500px;
-    height: 505px;    
+    width: calc(100% / 4);
+    max-width: 100%;  
 }
 .box-in-box{
-    width: 250px;
-    height: 250px;
+    width: 50%;
+    max-width: 100%;
+    padding-right: 10px;
     background-color: #d1e9cd;
 }
 
 .box-1{
-    width: 235px;
-    height: 235px; 
+    width: 100% ;
+    height: 100%; 
     background-color: #a2d39b; 
-    margin: 10px;
+   
 }
 
 .box-2{
-    width: 250px;
-    height: 250px; 
+    width: 50%;
+     
     background-color: #61082b ;
 }
 .box-3{
-    width: 250px;
-    height: 250px; 
+    width: 50%;
    background-color: #0093ce ;
 }
 .box-4{
-    width: 250px;
-    height: 250px; 
+    width:50%;
     background-color: #ff1c1c ;
 }
 
 .box1_2-left{
     display: flex;
+    height: 50%;
 }
 
 .box3_4-left{
     display: flex;
+    height: 50%;
 }
 
 .img-box1{
@@ -540,6 +549,7 @@ td{
     margin-left: 50px;
     width: 150px;
     max-width: 100%;
+    filter: invert(1);
 }
 
 .img-box4{
@@ -550,15 +560,16 @@ td{
 }
 
 .rettangolo{
-    width: 900px;
-    height: 500px;
+    width: 50%;
+    max-width: 100%;
     background-color: #f5f5f5;
 }
 
 .box-ret{
-    width: 520px;
-    height: 500px;
-    padding-left: 20px;
+    width: 50%;
+    max-width: 100%;
+    min-width: none;
+    padding-left: 30px;
 }
 
 .hr-rettangolo{
@@ -570,44 +581,43 @@ td{
     padding-bottom: 50px;
 }
 .img-rettangolo{
-    width: 180px;
-    height: 100px;
-    padding-top: 20px;
+    padding-top: 40px;
+    width: 100%;
+    filter: invert(1);
+    padding-bottom: 40px;
 }
 
 .box-right{
-    width: 500px;
-    height: 500px;
+    width: calc(100% / 4);
+    max-width: 100%; 
 }
 .box-5{
-    width: 250px;
-    height: 250px; 
+    width: 50%;; 
     background-color: #d5001f;
-    color: white !important;
+   
 }
 
 .box-6{
-    width: 250px;
-    height: 250px; 
+    width: 50%;
     background-color: #b4d0ef;
 }
 .box-7{
-    width: 250px;
-    height: 250px; 
-   background-color: #0d2481;
+    width: 50%; 
+    background-color: #0d2481;
 }
 .box-8{
-    width: 250px;
-    height: 250px; 
+    width: 50%;
     background-color: #ffd830;
 }
 
 .box5_6-left{
     display: flex;
+    height: 50%;
 }
 
 .box7_8-left{
     display: flex;
+    height: 50%;
 }
 
 .img-box5{
@@ -642,20 +652,20 @@ td{
 /*--- rettangolo blu ---- */
 
 .box-ret-blu{
-    width: 1903px;
-    height: 200px;
-    border: 2px solid black;
+    width: 100%;
+    max-width: 100%;
     background-color: #b4d0e7;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .box-ret2{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 75px;
+   
 }
 
 .title-ret{
-    padding-top: 60px;
     padding-left: 385px;
     font-size: 27px;
     color: darkred;
