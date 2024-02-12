@@ -678,3 +678,34 @@ td{
     font-family: inherit;
     
 }
+
+.box-vuoto{
+
+    width: 10px;
+    height: 200px;
+    border: 1px solid red;
+
+}
+
+.question{
+
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    
+}
+
+.box-question{
+    width: 900px;
+    
+}
+
+#angle-down{
+    padding-left: 60px;
+}
+.domande{
+    padding: 10px;
+    font-size: 15px;
+    font-family: inherit;
+
+}
