@@ -479,7 +479,7 @@ td{
 
 .quadrati{
     width: 1890px;
-    height: 505px;
+    height: 600px;
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -643,4 +643,38 @@ td{
     margin-left: 50px;
     width: 150px;
     max-width: 100%;
+}
+
+/*--- rettangolo blu ---- */
+
+.box-ret-blu{
+    width: 1903px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #b4d0e7;
+}
+
+.box-ret2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 75px;
+}
+
+.title-ret{
+    padding-top: 60px;
+    padding-left: 385px;
+    font-size: 27px;
+    color: darkred;
+}
+
+.btn-ret{
+    padding-top: 20px;
+    background-color: white ;
+    border-radius: 0%;
+    color: black;
+    padding: 14px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+    
 }
