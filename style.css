@@ -478,15 +478,15 @@ td{
 
 .quadrati{
     width: 1890px;
-    height: 510px;
+    height: 505px;
     border: 2px solid blue;
     margin: 10px;
+    display: flex;
 }
 
 .box{
     width: 500px;
-    height: 500px;
-    border: 2px solid black;
+    height: 505px;
 }
 .box-in-box{
     width: 250px;
@@ -495,8 +495,8 @@ td{
 }
 
 .box-1{
-    width: 225px;
-    height: 225px; 
+    width: 235px;
+    height: 235px; 
     background-color: #a2d39b; 
     margin: 10px;
 }
@@ -551,4 +551,30 @@ td{
     margin-left: 50px;
     width: 150px;
     max-width: 100%;
+}
+
+.rettangolo{
+    width: 700px;
+    height: 500px;
+    background-color: lightblue;
+}
+
+.box-ret{
+    width: 520px;
+    height: 500px;
+    padding-left: 20px;
+}
+
+.hr-rettangolo{
+    width: 100px;
+}
+
+.p-ret{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.img-rettangolo{
+    width: 180px;
+    height: 100px;
+    padding-top: 20px;
 }
