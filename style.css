@@ -749,3 +749,19 @@ td{
     padding: 10px 0;
 }
 
+.hr-f{
+    margin-top: 70px ;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.option{
+    bottom: 100%;
+    margin-bottom: 0.125rem;
+}
+
+#lingue{
+    background-color: black;
+    color: white;
+    border: none;
+}
